@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+                            
+    
+    
+    
+    
+    
+    <configuration XML_version="1.2" id="configuration_0">
+                                                        
+        
+        
+        
+        
+        
+        <instance XML_version="1.2" desc="Texas Instruments XDS110 USB Debug Probe" href="connections/TIXDS110_Connection.xml" id="Texas Instruments XDS110 USB Debug Probe" xml="TIXDS110_Connection.xml" xmlpath="connections"/>
+                                                        
+        
+        
+        
+        
+        
+        <connection XML_version="1.2" id="Texas Instruments XDS110 USB Debug Probe">
+                                                                                    
+            
+            
+            
+            
+            
+            <instance XML_version="1.2" href="drivers/tixds510icepick_c.xml" id="drivers" xml="tixds510icepick_c.xml" xmlpath="drivers"/>
+                                                                                    
+            
+            
+            
+            
+            
+            <instance XML_version="1.2" href="drivers/tixds510c674x.xml" id="drivers" xml="tixds510c674x.xml" xmlpath="drivers"/>
+                                                                                    
+            
+            
+            
+            
+            
+            <instance XML_version="1.2" href="drivers/tixds510pru.xml" id="drivers" xml="tixds510pru.xml" xmlpath="drivers"/>
+                                                                                    
+            
+            
+            
+            
+            
+            <instance XML_version="1.2" href="drivers/tixds510arm9.xml" id="drivers" xml="tixds510arm9.xml" xmlpath="drivers"/>
+                                                                                    
+            
+            
+            
+            
+            
+            <instance XML_version="1.2" href="drivers/tixds510etb11.xml" id="drivers" xml="tixds510etb11.xml" xmlpath="drivers"/>
+                                                                                    
+            
+            
+            
+            
+            
+            <platform XML_version="1.2" id="platform_0">
+                                                                                                                
+                
+                
+                
+                
+                
+                <instance XML_version="1.2" desc="LCDKOMAPL138" href="boards/lcdkomapl138.xml" id="LCDKOMAPL138" xml="lcdkomapl138.xml" xmlpath="boards"/>
+                                                                                                            
+                
+                
+                
+                
+                
+                <board XML_version="1.2" description="Texas Instruments OMAP-L138 Low Cost Development Kit" id="LCDKOMAPL138">
+                                                                                                                        
+                    
+                    
+                    
+                    
+                    <device HW_revision="1" XML_version="1.2" description="OMAP-L138 SoC" id="OMAPL138_0" partnum="OMAPL138" simulation="no">
+                                                                                                                                                
+                        
+                        
+                        
+                        
+                        <router HW_revision="" XML_version="1.2" desc="ICEPICK_C" description="" id="device_0" isa="ICEPICK_C">
+                                                                                                                                                                        
+                            
+                            
+                            
+                            
+                            <subpath id="device_4">
+                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                <cpu HW_revision="" XML_version="1.2" description="" deviceSim="false" id="device_4" isa="ETB11">
+                                                                                                                                                                                                                        
+                                    
+                                    
+                                    
+                                    
+                                    <property Type="choicelist" Value="1" id="bypass"/>
+                                                                                                                                                                                                                    
+                                
+                                
+                                
+                                
+                                </cpu>
+                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            </subpath>
+                                                                                                                                                                    
+                            
+                            
+                            
+                            
+                            <subpath id="device_1">
+                                                                                                                                                                
+                                
+                                
+                                
+                                <cpu HW_revision="1.0" XML_version="1.2" description="PRU Accelerator" deviceSim="false" id="PRU_1" isa="TMS192C2026">
+                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    <property Type="choicelist" Value="1" id="bypass"/>
+                                                                                                                                                                                
+                                
+                                
+                                
+                                </cpu>
+                                                                                                                                                                
+                                
+                                
+                                
+                                <cpu HW_revision="1.0" XML_version="1.2" description="PRU Accelerator" deviceSim="false" id="PRU_0" isa="TMS192C2026">
+                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    <property Type="choicelist" Value="1" id="bypass"/>
+                                                                                                                                                                                
+                                
+                                
+                                
+                                </cpu>
+                                                                                                                                                                
+                                
+                                
+                                
+                                <cpu HW_revision="" XML_version="1.2" description="" deviceSim="false" id="device_2" isa="TMS320C674X">
+                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    <property Type="choicelist" Value="1" id="Slave Processor"/>
+                                                                                                                                                                                
+                                
+                                
+                                
+                                </cpu>
+                                                                                                                                                            
+                            
+                            
+                            
+                            </subpath>
+                                                                                                                                        
+                        
+                        
+                        
+                        </router>
+                                                                                                                                            
+                    
+                    
+                    
+                    
+                    </device>
+                                                                                                                    
+                
+                
+                
+                
+                </board>
+                                                                                            
+            
+            
+            
+            
+            </platform>
+                                                                                
+        
+        
+        
+        
+        
+        </connection>
+                                                    
+    
+    
+    
+    
+    
+    </configuration>
+                        
+
+
+
+
+
+</configurations>
